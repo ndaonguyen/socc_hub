@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/matchSingleLayout" >
+    
+    	<RelativeLayout
+    	    android:id="@+id/star"
+    	    android:layout_width="20dp"
+    	    android:layout_height="wrap_content"
+    	    android:paddingTop="@dimen/padding_20"
+    	    android:paddingLeft="5dp"
+    	    android:gravity="left" >
+
+	    	<ImageView
+	    	    android:id="@+id/grayStar"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/star_gray"
+	    	    android:contentDescription="@string/img_temp"
+	    	    android:visibility="gone" />
+	    	
+	    	<ImageView
+	    	    android:id="@+id/orangeStar"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/star_orange"
+	    	    android:contentDescription="@string/img_temp"
+	    	    android:layout_alignTop="@+id/grayStar"
+	    	    android:visibility="gone" />
+    	</RelativeLayout>
+    	
+       <TextView
+           android:id="@+id/teamA"
+           android:layout_width="150dp"
+           android:layout_height="50dp"
+           android:gravity="center"
+           android:layout_toRightOf="@+id/star"/>
+       
+       <RelativeLayout
+           android:id="@+id/timeLayout"
+           android:layout_width="60dp"
+           android:layout_height="50dp"
+           android:layout_toRightOf="@+id/teamA"
+           android:paddingLeft="@dimen/small_padding"
+	       android:paddingRight="@dimen/small_padding"
+	       android:layout_centerHorizontal="true"
+	       android:gravity="center" >
+
+           <TextView
+	           android:id="@+id/FTorMinute"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:gravity="center_horizontal"
+	           android:textSize="@dimen/small_text_size"
+	           android:text="@string/FT" />
+           
+           <RelativeLayout
+               android:id="@+id/result"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/FTorMinute" >
+               
+			       <TextView
+			           android:id="@+id/finalResult"
+			           android:layout_width="match_parent"
+			           android:layout_height="wrap_content"
+			           android:gravity="center_horizontal"
+			           android:textColor="@color/orange"
+			           android:textStyle="bold" />
+			       
+			       <ImageView 
+			           android:id="@+id/clock"
+			           android:layout_alignTop="@+id/finalResult"
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:src="@drawable/clock"
+			           android:layout_centerHorizontal="true"
+			           android:contentDescription="@string/img_live_desc"/>
+	       </RelativeLayout>
+	       
+	       <TextView
+	           android:id="@+id/HTorDis"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:gravity="center_horizontal"
+	           android:layout_below="@+id/result"
+	           android:textSize="@dimen/small_text_size"/>
+
+       </RelativeLayout>
+       
+       <TextView
+           android:id="@+id/teamB"
+           android:layout_width="150dp"
+           android:layout_height="50dp"
+           android:layout_toRightOf="@+id/timeLayout"
+           android:gravity="center" />
+</RelativeLayout>

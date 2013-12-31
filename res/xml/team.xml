@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--  
+	<match>
+	    <id></id>
+	    <teamA_id></teamA_id>
+	    <teamB_id></teamB_id>
+	    <time></time>
+	    <league_id></league_id>
+	    <other></other>
+	</match>    
+	
+	<match id= " " teamA_id = "" teamB_id="" time="" league_id="" other=""></match>
+	-->
+<teams>
+    <team id="1" name= "Cardiff City" flag="" country="England" point="200"  game_played= "10" won="5" drawn="1" lost="4"  goals_forward= "20" goals_against="10" goals_diff="3" other=""></team>
+	<team id="2" name= "Arsenal" flag="" country="England" point="200"  game_played= "10" won="5" drawn="1" lost="4"  goals_forward= "20" goals_against="10" goals_diff="3" other=""></team>
+	<team id="3" name= "West Harm" flag="" country="England" point="200"  game_played= "10" won="5" drawn="1" lost="4"  goals_forward= "20" goals_against="10" goals_diff="3" other=""></team>
+	<team id="4" name= "stoke City" flag="" country="England" point="200"  game_played= "10" won="5" drawn="1" lost="4"  goals_forward= "20" goals_against="10" goals_diff="3" other=""></team>
+	<team id="5" name= "Norwich" flag="" country="England" point="200"  game_played= "10" won="5" drawn="1" lost="4"  goals_forward= "20" goals_against="10" goals_diff="3" other=""></team>
+	<team id="6" name= "Crystal Palace" flag="" country="England" point="200"  game_played= "10" won="5" drawn="1" lost="4"  goals_forward= "20" goals_against="10" goals_diff="3" other=""></team>
+</teams>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="link_color">#3300CC</color>
+    
+    <color name="emphasize">#8B0000</color>
+    <color name="orange">#FF6633</color>
+    
+    <color name="lightGray">#778899</color>
+    <color name="lightColorLine">#D6CED1</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="SteelBlue">#4682b4</color>
+    <color name="black">#000000</color>
+    <color name="mintCream">#f5fffa</color>
+    
+    <color name="match_goal">#d3d3d3</color>
+    <color name="background_emphasize">#CCCCFF</color>
+</resources>

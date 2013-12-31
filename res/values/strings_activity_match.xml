@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="img_league_desc">League</string>
+    <string name="img_refresh_desc">Refresh</string>
+    <string name="img_live_desc">Live</string>
+    <string name="img_notification_desc">Notification</string>
+    <string name="img_lastMatches_desc">Last matches</string>
+    <string name="img_temp"></string>
+    
+    
+</resources>

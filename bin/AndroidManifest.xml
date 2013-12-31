@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.a1biz.soccerhub"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/soccer_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name="com.a1biz.soccerhub.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.member.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.member.MemberActivity"
+            android:label="@string/title_activity_member"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.MatchActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.LastMatchActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.vote.VoteActivity"
+            android:label="@string/title_activity_vote"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.favourite.FavouriteActivity"
+            android:label="@string/title_activity_favourite"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.readDays.ReadDayActitity"
+            android:label="@string/title_activity_read_day_actitity" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.leagueToday.TodayActivity"
+            android:label="@string/title_activity_league_today" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.leagueToday.LeagueActivity"
+            android:label="@string/title_activity_league" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.leagueToday.LeagueMatchesActivity"
+            android:label="@string/title_activity_league_matches" >
+        </activity>
+        <activity
+            android:name="test.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.a1biz.soccerhub.SpinningActivity"
+            android:label="@string/title_activity_spinning" >
+        </activity>
+    </application>
+
+</manifest>

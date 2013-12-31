@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--  
+	<match>
+	    <id></id>
+	    <teamA_id></teamA_id>
+	    <teamB_id></teamB_id>
+	    <time></time>
+	    <league_id></league_id>
+	    <other></other>
+	</match>    
+	
+	<match id= " " teamA_id = "" teamB_id="" time="" league_id="" other=""></match>
+	-->
+<matches>
+    <match id="1" teamA_id = "1" teamB_id="2" time="03:45" league_id="1" HT="1-1" FT="2-1" status="Finished" minute="Finished" curent_period="Finished" other=""></match>
+	<match id="2" teamA_id = "2" teamB_id="3" time="03:45" league_id="1" HT="1-1" FT="2-1" status="Finished" minute="Finished" curent_period="Finished" other=""></match>
+	<match id="3" teamA_id = "3" teamB_id="4" time="03:45" league_id="1" HT="1-1" FT="2-1" status="Finished" minute="Finished" curent_period="Finished" other=""></match>
+	<match id="4" teamA_id = "4" teamB_id="5" time="03:45" league_id="1" HT="1-1" FT="2-1" status="Finished" minute="Finished" curent_period="Finished" other=""></match>
+	<match id="5" teamA_id = "5" teamB_id="1" time="03:45" league_id="1" HT="1-1" FT="2-1" status="Finished" minute="Finished" curent_period="Finished" other=""></match>
+	<match id="6" teamA_id = "1" teamB_id="3" time="03:45" league_id="2" HT="1-1" FT="2-1" status="Finished" minute="Finished" curent_period="Finished" other=""></match>
+	<match id="7" teamA_id = "1" teamB_id="4" time="03:45" league_id="2" HT="1-1" FT="2-1" status="inprogress" minutes="57" curent_period="2nd half" other=""></match>
+	<match id="8" teamA_id = "3" teamB_id="5" time="03:45" league_id="2" HT="1-1" FT="2-1" status="inprogress" minutes="57" curent_period="2nd half" other=""></match>
+	<match id="9" teamA_id = "4" teamB_id="2" time="03:45" league_id="2" HT="1-1" FT="2-1" status="inprogress" minutes="57" curent_period="2nd half" other=""></match>
+	<match id="10" teamA_id = "3" teamB_id="5" time="03:45" league_id="2" HT="1-1" FT="2-1" status="inprogress" minutes="57" curent_period="2nd half" other=""></match>
+</matches>

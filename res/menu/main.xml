@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/spinning"
+		android:title="Spinning"
+		android:showAsAction="always"
+		android:icon="@drawable/menu">
+	</item>
+    
+    
+	<item android:id="@+id/home"
+		android:title="@string/home"
+		android:showAsAction="always"
+		android:icon="@drawable/soccer_icon">
+	</item>
+	
+	<item android:id="@+id/leagueToday"
+		android:title="@string/leagueTodayStr"
+		android:showAsAction="always"
+		android:icon="@drawable/today" >
+	</item>
+	
+	<item android:id="@+id/favourite"
+		android:title="@string/favourite"
+		android:showAsAction="always"
+		android:icon="@drawable/favourite" >
+	</item>
+	
+	<item android:id="@+id/member"
+		android:title="@string/member"
+		android:showAsAction="always"
+		android:icon="@drawable/member" >
+	</item>
+	
+	<item android:id="@+id/readDays"
+		android:title="@string/readDayStr"
+		android:showAsAction="always"
+		android:icon="@drawable/temp" >
+	</item>
+	
+</menu>

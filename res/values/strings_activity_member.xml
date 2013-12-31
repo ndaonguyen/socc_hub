@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_activity_member">Member</string>
+    <string name="img_member_description">Member image</string>
+    
+</resources>

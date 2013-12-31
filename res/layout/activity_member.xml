@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/memberActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MemberActivity" >
+
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/lightGray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/icon_padding_top"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/icon_padding_top" >
+
+        <TextView
+            android:id="@+id/textHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/member"
+            android:textColor="@color/mintCream"
+            android:textSize="@dimen/text_heading"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/heading"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_padding" >
+
+        <ImageView
+            android:id="@+id/memberImg"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/img_member_description"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/memberInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/normal_padding_left"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/memberLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/normal_padding_left"
+            android:textColor="@color/link_color"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  tools:context=".MatchActivity">
+	  
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@color/lightGray"
+        android:paddingTop="@dimen/icon_padding_top"
+	    android:paddingBottom="@dimen/icon_padding_top" >
+
+        <ImageView
+              android:id="@+id/league"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:contentDescription="@string/img_league_desc"
+              android:paddingRight="@dimen/normal_padding"
+              android:layout_toLeftOf="@+id/loadingLayout"
+              android:src="@drawable/whistle" />
+        
+        <RelativeLayout
+            android:id="@+id/loadingLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+       		android:layout_centerVertical="true"
+            android:visibility="visible" >
+        
+          <ProgressBar
+              android:id="@+id/loadingPanel"
+              style="@style/GenericProgressIndicator"
+              android:layout_alignTop="@+id/refresh"
+              android:layout_centerHorizontal="true"
+       		  android:layout_centerVertical="true"
+              android:visibility="visible" />
+
+          <ImageView
+              android:id="@+id/refresh"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:contentDescription="@string/img_refresh_desc"
+              android:layout_centerHorizontal="true"
+       		  android:layout_centerVertical="true"
+              android:src="@drawable/refresh"
+              android:visibility="invisible" />
+
+		</RelativeLayout>
+
+          <ImageView
+              android:id="@+id/live"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_alignTop="@+id/loadingLayout"
+              android:layout_toRightOf="@+id/loadingLayout"
+              android:contentDescription="@string/img_live_desc"
+              android:paddingLeft="@dimen/normal_padding"
+              android:src="@drawable/live_match" />
+
+	 </RelativeLayout>
+    
+     <ListView
+       	android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading" >
+    </ListView>
+</RelativeLayout>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<leagues>
+    <league id="1" name = "English Primier League" status="1" other=""></league>
+	<league id="2" name = "France League" status="1" other=""></league>
+</leagues>
