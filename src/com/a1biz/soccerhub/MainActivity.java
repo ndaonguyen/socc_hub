@@ -39,7 +39,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends Activity {
-
+	
 		Menu menu;
 	    // Today's data
 		public static ArrayList<matchDb> matches;
