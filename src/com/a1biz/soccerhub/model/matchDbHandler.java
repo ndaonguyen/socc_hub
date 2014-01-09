@@ -25,7 +25,7 @@ public class matchDbHandler
         static final String KEY_ID           = "id";
         static final String KEY_TEAMA_ID     = "teamA_id";
         static final String KEY_TEAMB_ID     = "teamB_id";
-        static final String KEY_TIME         = "time";
+        static final String KEY_TIME         = "time_match";
         static final String KEY_LEAGUE_ID    = "league_id";
         static final String KEY_HT		     = "HT";
         static final String KEY_FT		     = "FT";

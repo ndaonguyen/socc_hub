@@ -23,9 +23,9 @@ public class memberVoteDbHandler
     
     public static abstract class memberVoteEntry implements BaseColumns 
     {
-        static final String KEY_MEMBERID    = "member_Id";
-        static final String KEY_MATCHID     = "match_Id";
-        static final String KEY_VOTERESULT  = "vote_Result";
+        static final String KEY_MEMBERID    = "member_id";
+        static final String KEY_MATCHID     = "match_id";
+        static final String KEY_VOTERESULT  = "vote_result";
     }
     
     public memberVoteDbHandler(Context context)

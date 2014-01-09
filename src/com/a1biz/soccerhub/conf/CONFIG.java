@@ -32,7 +32,7 @@ public abstract class CONFIG {
 	// Db
 	public final static String TABLE_MEMBER	      = "member";
 	public final static String TABLE_MEMBERVOTE	  = "voteResult";
-	public final static String TABLE_MATCH	      = "match";
+	public final static String TABLE_MATCH	      = "matchFootball";
 	public final static String TABLE_TEAM	      = "team";
 	public final static String TABLE_LEAGUE	      = "league";
 	public final static String TABLE_FAVOURITE	  = "favourite";
